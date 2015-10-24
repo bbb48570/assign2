@@ -45,7 +45,7 @@ void setup () {
   
   Game_State=Game_Start;
   EnemyY=floor(random(20,430));  
-  hpp=255;
+  hpp=97;
   x=1;
   y=floor(random(20,430));
   z=floor(random(20,400));
@@ -179,7 +179,7 @@ void draw() {
      if (mousePressed){
      Game_State=Game_Play;   
      
-     hpp=255;
+     hpp=97;
      
      
      
